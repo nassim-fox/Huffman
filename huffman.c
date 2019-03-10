@@ -1,7 +1,7 @@
 
 
 /*
-	Name: mission4_equipe_2.c
+	Name: huffman.c
 	Copyright: 
 	Author: BOUHADOUF Nassim
 	Date: 24/01/19 17:01
@@ -68,7 +68,7 @@ int main()
 {
 
 	//***** lecture du fichier 
-	global_s = read_file("Equipe_2_Mission4_in.txt ") ;
+	global_s = read_file("input.txt ") ;
 	//  la liste d'arbres vide
 	struct tas* t = NULL ; 
 	// remplir la liste par des noeuds d'arbres contenant les caractères et leurs occurences
@@ -84,7 +84,7 @@ int main()
 	int n = 0 ; 
 	
 	//*** ouverture du fichier de sortie
-	FILE* f = fopen("Equipe_2_Mission4_out.txt","w") ; 
+	FILE* f = fopen("output.txt","w") ; 
 	
 	if(f!=NULL)
 	{
